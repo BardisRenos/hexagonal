@@ -15,5 +15,6 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-
+    private String lastName;
+    private Integer age;
 }
